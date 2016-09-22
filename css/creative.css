@@ -263,7 +263,7 @@ header .header-content .header-content-inner p {
     position: relative;
     margin: 0 auto;
     max-width: 650px;
-    height: 226px;
+    max-height: 350px;
 }
 
 .portfolio-box .portfolio-box-caption {
