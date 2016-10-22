@@ -29,7 +29,7 @@
 	width: 0;
 	position: absolute;
 	pointer-events: none;
-	border-bottom-color: #ddd;
+	border-bottom-color: #36454f;
 	border-width: 15px;
 	left: 50%;
 	margin: -20px 0 0 -15px;
@@ -37,7 +37,7 @@
 
 .og-expander {
 	position: absolute;
-	background: #ddd;
+	background: #36454f;
 	top: auto;
 	left: 0;
 	width: 100%;
@@ -68,7 +68,7 @@
 	width: 100%;
 	top: 50%;
 	height: 1px;
-	background: #888;
+	background: #eb3812;
 	-webkit-transform: rotate(45deg);
 	-moz-transform: rotate(45deg);
 	transform: rotate(45deg);
@@ -113,18 +113,19 @@
 	font-size: 52px;
 	padding: 40px 0 10px;
 	margin-bottom: 10px;
+    color: #43C6D8
 }
 
 .og-details p {
 	font-weight: 400;
-	font-size: 16px;
+	font-size: 22px;
 	line-height: 22px;
 	color: #999;
 }
 
 .og-details a {
 	font-weight: 700;
-	font-size: 16px;
+	font-size: 22px;
 	color: #333;
 	text-transform: uppercase;
 	letter-spacing: 2px;
@@ -150,7 +151,7 @@
 	width: 20px;
 	height: 20px;
 	border-radius: 50%;
-	background: #ddd;
+	background: #36454f;
 	box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ccc;
 	position: absolute;
 	top: 50%;
@@ -162,21 +163,21 @@
 }
 
 @-webkit-keyframes loader {
-	0% { background: #ddd; }
-	33% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ddd; }
-	66% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ddd, -15px 30px 1px #ccc; }
+	0% { background: #36454f; }
+	33% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #36454f; }
+	66% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #36454f, -15px 30px 1px #ccc; }
 }
 
 @-moz-keyframes loader {
-	0% { background: #ddd; }
-	33% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ddd; }
-	66% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ddd, -15px 30px 1px #ccc; }
+	0% { background: #36454f; }
+	33% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #36454f; }
+	66% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #36454f, -15px 30px 1px #ccc; }
 }
 
 @keyframes loader {
-	0% { background: #ddd; }
-	33% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ddd; }
-	66% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ddd, -15px 30px 1px #ccc; }
+	0% { background: #36454f; }
+	33% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #36454f; }
+	66% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #36454f, -15px 30px 1px #ccc; }
 }
 
 @media screen and (max-width: 830px) {
