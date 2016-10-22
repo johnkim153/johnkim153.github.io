@@ -571,3 +571,14 @@ bodys
 .contacts {
     width: 20%;
 }
+
+.img-size {
+    width: 250px;
+    height: 250px;
+}
+
+.img-largesize {
+    width: 500px;
+    height: 500px;
+    
+}
